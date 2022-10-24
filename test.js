@@ -1,9 +1,9 @@
 const { notDeepEqual } = require("assert");
 
-function example(){
-    return "a";
+function example() {
+  return "a";
 }
 
-test('checking', ()=> {
-    expect(example()).toHaveLength(1);
-})
+test("checking", () => {
+  expect(example()).toHaveLength(1);
+});
